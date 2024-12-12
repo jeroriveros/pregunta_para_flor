@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaración</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="pantalla-inicial" id="pantallaInicial">
+        <p>¡Toca cualquier lugar para comenzar!</p>
+    </div>
+    <div class="collage">
+        <img src="https://raw.githubusercontent.com/jeroriveros/pregunta_para_flor/refs/heads/main/foto_1.jpg" alt="Imagen 1">
+        <img src="https://raw.githubusercontent.com/jeroriveros/pregunta_para_flor/refs/heads/main/foto_2.jpg" alt="Imagen 2">
+        <img src="https://raw.githubusercontent.com/jeroriveros/pregunta_para_flor/refs/heads/main/foto_3.jpg" alt="Imagen 3">
+        <img src="https://raw.githubusercontent.com/jeroriveros/pregunta_para_flor/refs/heads/main/foto_4.jpg" alt="Imagen 4">
+        <img src="https://raw.githubusercontent.com/jeroriveros/pregunta_para_flor/refs/heads/main/foto_5.jpg" alt="Imagen 5">
+        <img src="https://raw.githubusercontent.com/jeroriveros/pregunta_para_flor/refs/heads/main/foto_6.jpg" alt="Imagen 6">
+        <img src="https://raw.githubusercontent.com/jeroriveros/pregunta_para_flor/refs/heads/main/foto_7.jpg" alt="Imagen 7">
+        <img src="https://raw.githubusercontent.com/jeroriveros/pregunta_para_flor/refs/heads/main/foto_8.jpg" alt="Imagen 8">
+        <img src="https://raw.githubusercontent.com/jeroriveros/pregunta_para_flor/refs/heads/main/foto_9.jpg" alt="Imagen 9">
+        <img src="https://raw.githubusercontent.com/jeroriveros/pregunta_para_flor/refs/heads/main/foto_10.jpg" alt="Imagen 10">
+        <img src="https://raw.githubusercontent.com/jeroriveros/pregunta_para_flor/refs/heads/main/foto_11.jpg" alt="Imagen 11">
+        <img src="https://raw.githubusercontent.com/jeroriveros/pregunta_para_flor/refs/heads/main/foto_12.jpg" alt="Imagen 12">
+    </div>
+    <div class="contenedor" id="step1" style="display: none;">
+        <p>¿Estás preparada para esta pregunta?</p>
+        <button id="startBtn">Sí, adelante</button>
+    </div>
+    <div class="contenedor" id="step2" style="display: none;">
+        <p>¿Queres ser mi novia?</p>
+        <button id="yesBtn">Si</button>
+        <button id="noBtn">No</button>
+    </div>
+    <audio id="bgMusic" loop autoplay>
+        <source src="https://dl.dropboxusercontent.com/s/hyllpzxy01a8r9ngh2iz1/Te-regalo.mp3?rlkey=qupq8wl9b85rr7pwvo427649h&st=1750hy44&dl=0" type="audio/mpeg">
+    </audio>
+    <canvas class="particles" id="particles"></canvas>
+    <script src="scripts.js"></script>
+</body>
+</html>
